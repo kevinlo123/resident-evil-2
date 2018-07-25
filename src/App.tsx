@@ -8,7 +8,7 @@ class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <MainEntrance authenticated={false}/>     
+        <MainEntrance />     
       </div>
     );
   }
